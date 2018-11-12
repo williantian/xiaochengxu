@@ -1,0 +1,34 @@
+/* pages/change/change.wxss */
+.container {
+    background: #f8f8f8;
+  }
+.lang-list{
+    display: flex;
+   flex-direction: column;
+}
+.lang-list .title{
+    color: #aaa;
+    background: #fff;
+    padding: 20rpx 40rpx;
+    border-bottom: 1px solid #ececec;
+}
+.lang-list .item{
+    padding-left: 40rpx;
+    background: #fff;
+}
+.item-inner {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ececec;
+    padding:  20rpx 40rpx 20rpx 0;
+    
+  }
+  
+  .item .txt {
+    flex: 1;
+  }
+  
+  .item .iconfont {
+    margin-left: auto;
+    color: #aaa;
+  }

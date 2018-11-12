@@ -1,0 +1,46 @@
+/**index.wxss**/
+.change{
+  font-size: 24rpx;
+  color: #8995a1;
+  padding: 20rpx 40rpx;
+  display: flex;
+  align-items: center;
+
+}
+.change .icon-icon-downfill{
+  color: #8995a1;
+  font-size: 20rpx;
+}
+.input-area{
+  background-color: white;
+  
+  position: relative;
+}
+.input-area .textarea-wrap{
+  padding-left: 30rpx;
+}
+.input-area textarea{
+  width: calc(100% - 48rpx);
+  margin: 0;
+  padding-top: 30rpx;
+}
+.input-area .icon-cha{
+  position: absolute;
+  right: 12rpx;
+  top: 20rpx;
+  font-size: 30rpx;
+  color: #888;
+}
+.input-area .text-area{
+  border-top: 1px solid #c7cee0;
+  min-height: 80rpx;
+  padding: 40rpx;
+  background-color: #fff;
+}
+.input-area .text-title{
+  font-size: 28rpx;
+  color: #8995a1;
+}
+.input-area .text-result {
+  padding: 20rpx 0;
+}
