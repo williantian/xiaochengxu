@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="change">
-    <navigator url="/pages/change/change"  ="navigator-hover">
+    <navigator url="/pages/change/change"  hover-class="navigator-hover">
     <text>到{{currentLang.chs}}</text>
     <text class="iconfont icon-icon-downfill"></text>
     </navigator>
